@@ -10,7 +10,7 @@ redirect_from:
 
 First-year PhD student at Caltech studying Computing and Mathematical Sciences. 
 
-Previously at Duke, studying Mathematics, Computer Science and statistics. 
+Previously at Duke, studying Mathematics, Computer Science and Statistics. 
 
 My research interests include Computer Vision as well as Computational Imaging. 
 
