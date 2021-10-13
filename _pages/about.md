@@ -14,7 +14,7 @@ Previously at Duke, studying Mathematics, Computer Science and statistics.
 
 My research interests include Computer Vision as well as Computational Imaging. 
 
-You can find a copy of my CV [here](/data/cv)
+You can find a copy of my CV [here](/files/Brandon_Zhao_CV.pdf)
 
 <!-- Publications
 ====== -->
