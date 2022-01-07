@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Brandon Zhao"
 title_separator          : "-"
 name                     : &name "Brandon Zhao"
-description              : &description "personal description"
+description              : &description "PhD Student @ Caltech CMS"
 url                      : https://brandonyzhao.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "brandonyzhao/brandonyzhao.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Brandon Zhao"
   avatar           : "profilepic.jpg"
-  bio              : #"Your biography for the left-hand sidebar"
+  bio              : "PhD Student @ Caltech CMS"
   location         : #"Location"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
