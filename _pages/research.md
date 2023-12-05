@@ -9,7 +9,7 @@ author_profile: true
 ***
 
 <div class='img' style='width: 80%;'>
-  <img class='img_responsive' src='/images/teaser.png' />
+  <img class='img_responsive' src='/images/teaser.pdf' />
 </div>
 
 <div class='text' style='width: 80%;'>

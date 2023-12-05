@@ -12,7 +12,7 @@ Third-year PhD student at Caltech studying Computing and Mathematical Sciences. 
 
 Previously at Duke, studying Mathematics, Computer Science and Statistics. 
 
-My research interests include Computational Imaging and Computer Vision. Currently I'm working on using computational imaging techniques for astrophysical applications. 
+My research interests include computational imaging and computer vision. Currently I'm working on using computational imaging techniques for astrophysical applications. 
 
 <!-- Publications
 ====== -->
