@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-Third-year PhD student at Caltech studying Computing and Mathematical Sciences. I am currently supported by the Gupta Fellowship. 
+Third-year PhD student at Caltech studying Computing and Mathematical Sciences. I was previously supported by the Gupta Fellowship. 
 
 Previously at Duke, studying Mathematics, Computer Science and Statistics. 
 
-My research interests include Computer Vision as well as Computational Imaging. 
+My research interests include Computational Imaging and Computer Vision. Currently I'm working on using computational imaging techniques for astrophysical applications. 
 
 <!-- Publications
 ====== -->

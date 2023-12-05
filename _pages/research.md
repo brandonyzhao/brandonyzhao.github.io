@@ -5,6 +5,20 @@ title: "Research"
 author_profile: true
 ---
 
+## Single View Refractive Index Tomography with Neural Fields
+***
+
+<div class='img' style='width: 80%;'>
+  <img class='img_responsive' src='/images/teaser.png' />
+</div>
+
+<div class='text' style='width: 80%;'>
+  Refractive Index Tomography is an inverse problem in which we seek to reconstruct a scene's 3D refractive field from 2D projected image measurements. The refractive field is not visible itself, but instead affects how the path of a light ray is continuously curved as it travels through space. Refractive fields appear across a wide variety of scientific applications, from translucent cell samples in microscopy to fields of dark matter bending light from faraway galaxies. This problem poses a unique challenge because the refractive field directly affects the path that light takes, making its recovery a non-linear problem. In addition, in contrast with traditional tomography, we seek to recover the refractive field using a projected image from only a single viewpoint by leveraging knowledge of light sources scattered throughout the medium. In this work, we introduce a method that uses a coordinate-based neural network to model the underlying continuous refractive field in a scene. We then use explicit modeling of rays' 3D spatial curvature to optimize the parameters of this network, reconstructing refractive fields with an analysis-by-synthesis approach. The efficacy of our approach is demonstrated by recovering refractive fields in simulation, and analyzing how recovery is affected by the light source distribution. We then test our method on a simulated dark matter mapping problem, where we recover the refractive field underlying a realistic simulated dark matter distribution.
+
+ [arXiv link](https://arxiv.org/abs/2309.04437)
+</div>
+
+
 ## Content-Based Classification of Mars Exploration Rover Pancam Images
 ***
 
@@ -31,7 +45,7 @@ author_profile: true
  
 </div>
 
-## Improving Prototype-based Neural Networks for Interpretable Fine-grained Image Classification
+## This Looks Like Those: Illuminating Prototypical Concepts Using Multiple Visualizations
 ***
 
 <div class='img' style='float: right; width: 15%;'>
@@ -39,17 +53,9 @@ author_profile: true
 </div>
 
 <div class='text' style='width: 80%;'>
-  When evaluating the interpretability of an image classification network, it is important
-  to consider not only the model’s capability to explain its reasoning process, but also the
-  quality of its explanations. Existing prototypical image classification models have an interpretable
-  reasoning process which uses similarity to prototypical image patches to explain a given
-  decision, but may suffer from decisions based on prototypes with spurious connections to
-  actual semantic concepts. 
+  ProtoConcepts is a method for interpretable image classification combining deep learning and case-based reasoning using prototypical parts. Existing work in prototype-based image classification uses a ``this looks like that'' reasoning process, which dissects a test image by finding prototypical parts and combining evidence from these prototypes to make a final classification. However, all of the existing prototypical part-based image classifiers provide only one-to-one comparisons, where a single training image patch serves as a prototype to compare with a part of our test image. With these single-image comparisons, it can often be difficult to identify the underlying concept being compared (e.g., ``is it comparing the color or the shape?''). Our proposed method modifies the architecture of prototype-based networks to instead learn prototypical concepts which are visualized using multiple image patches. Having multiple visualizations of the same prototype allows us to more easily identify the concept captured by that prototype (e.g., ``the test image and the related training patches are all the same shade of blue''), and allows our model to create richer, more interpretable visual explanations. Our experiments show that our ``this looks like those'' reasoning process can be applied as a modification to a wide range of existing prototypical image classification networks while achieving comparable accuracy on benchmark datasets. 
 
-  I am investigating ways to modify the architecture and training processes of these networks to better represent rich underlying relationships between prototypical parts and fine-grained image classes 
-  through a learned class assignment.
-
-  This project is being done in collaboration with Prof. Cynthia Rudin and the Prediction Analysis lab at Duke. 
+  This work was recently accepted at NeurIPS 2023. [arXiv link](https://arxiv.org/abs/2310.18589)
 </div>
 
 ## Epidemics on Random Graphs
@@ -61,6 +67,6 @@ author_profile: true
 
 Studied asymptotics of the contact process on random periodic trees. In particular, I helped to derive bounds for critical values of phase transitions for the contact process on \\((1,n)\\) trees as well as \\((a,b,c)\\) trees. This work was the result of a group project advised by Professors Rick Durrett and Matthew Junge at Duke as part of the DoMath program. 
 
-[Download paper here](https://arxiv.org/pdf/1808.01863.pdf)
+[arXiv link](https://arxiv.org/pdf/1808.01863)
 
 Jiang, Y., Kassem, R., York, G., Zhao, B., Huang, X., Junge, M., & Durrett, R. (2018) "The contact process on periodic trees." <i>arXiv preprint arXiv:1808.01863.</i>
