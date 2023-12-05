@@ -14,10 +14,9 @@ author_profile: true
 
 <div class='text' style='width: 80%;'>
   Refractive Index Tomography is an inverse problem in which we seek to reconstruct a scene's 3D refractive field from 2D projected image measurements. The refractive field is not visible itself, but instead affects how the path of a light ray is continuously curved as it travels through space. Refractive fields appear across a wide variety of scientific applications, from translucent cell samples in microscopy to fields of dark matter bending light from faraway galaxies. This problem poses a unique challenge because the refractive field directly affects the path that light takes, making its recovery a non-linear problem. In addition, in contrast with traditional tomography, we seek to recover the refractive field using a projected image from only a single viewpoint by leveraging knowledge of light sources scattered throughout the medium. In this work, we introduce a method that uses a coordinate-based neural network to model the underlying continuous refractive field in a scene. We then use explicit modeling of rays' 3D spatial curvature to optimize the parameters of this network, reconstructing refractive fields with an analysis-by-synthesis approach. The efficacy of our approach is demonstrated by recovering refractive fields in simulation, and analyzing how recovery is affected by the light source distribution. We then test our method on a simulated dark matter mapping problem, where we recover the refractive field underlying a realistic simulated dark matter distribution.
-
- [arXiv link](https://arxiv.org/abs/2309.04437)
 </div>
 
+[arXiv link](https://arxiv.org/abs/2309.04437)
 
 ## Content-Based Classification of Mars Exploration Rover Pancam Images
 ***
@@ -55,8 +54,10 @@ author_profile: true
 <div class='text' style='width: 80%;'>
   ProtoConcepts is a method for interpretable image classification combining deep learning and case-based reasoning using prototypical parts. Existing work in prototype-based image classification uses a ``this looks like that'' reasoning process, which dissects a test image by finding prototypical parts and combining evidence from these prototypes to make a final classification. However, all of the existing prototypical part-based image classifiers provide only one-to-one comparisons, where a single training image patch serves as a prototype to compare with a part of our test image. With these single-image comparisons, it can often be difficult to identify the underlying concept being compared (e.g., ``is it comparing the color or the shape?''). Our proposed method modifies the architecture of prototype-based networks to instead learn prototypical concepts which are visualized using multiple image patches. Having multiple visualizations of the same prototype allows us to more easily identify the concept captured by that prototype (e.g., ``the test image and the related training patches are all the same shade of blue''), and allows our model to create richer, more interpretable visual explanations. Our experiments show that our ``this looks like those'' reasoning process can be applied as a modification to a wide range of existing prototypical image classification networks while achieving comparable accuracy on benchmark datasets. 
 
-  This work was recently accepted at NeurIPS 2023. [arXiv link](https://arxiv.org/abs/2310.18589)
+  This work was recently accepted at NeurIPS 2023. 
 </div>
+
+[arXiv link](https://arxiv.org/abs/2310.18589)
 
 ## Epidemics on Random Graphs
 ***
