@@ -12,11 +12,11 @@ main:
   # - title: "Portfolio"
   #   url: /portfolio/
         
-   - title: "Research"
-     url: /research/
+  #  - title: "Research"
+  #    url: /research/
     
-  # - title: "CV"
-  #   url: /cv/
+  - title: "CV"
+    url: /files/Brandon_Zhao_CV.pdf
     
   # - title: "Guide"
   #   url: /markdown/
