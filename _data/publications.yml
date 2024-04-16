@@ -15,7 +15,7 @@ all:
      - "[arXiv](https://arxiv.org/abs/2310.18589){: .btn .btn--info}"
      - "[Code](https://github.com/Henrymachiyu/This-looks-like-those_ProtoConcepts){: .btn .btn--inverse}"
   - title: "Mars image content classification: Three years of nasa deployment and recent advances"
-    authors: "Kiri Wagstaff, Steven Lu, Emily Dunkel, Kevin Grimes, *Brandon Zhao*, Jesse Cai, Shoshanna B. Cole, Gary Doran, Raymond Francis, Jake Lee, Lukas Mandrake"
+    authors: "Kiri Wagstaff, Steven Lu, Emily Dunkel, Kevin Grimes, **Brandon Zhao**, Jesse Cai, Shoshanna B. Cole, Gary Doran, Raymond Francis, Jake Lee, Lukas Mandrake"
     venue: "*AAAI* 2021"
     teaser: rover.jpg
     links: 
