@@ -8,7 +8,7 @@ all:
      - "[arXiv](https://arxiv.org/abs/2309.04437){: .btn .btn--info}"
      - "[Code](https://github.com/brandonyzhao/rtnf){: .btn .btn--inverse}"
   - title: "This Looks Like Those: Illuminating Prototypical Concepts Using Multiple Visualizations"
-    authors: "Chiyu Ma\*, **Brandon Zhao\***, Chaofan Chen, Cynthia Rudin"
+    authors: "Chiyu Ma&#42;, **Brandon Zhao&#42;**, Chaofan Chen, Cynthia Rudin"
     venue: "*NeurIPS* 2024"
     teaser: birds_teaser.png
     links: 
