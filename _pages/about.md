@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Third-year PhD student at Caltech studying Computing and Mathematical Sciences. I was previously supported by the Gupta Fellowship. 
+Third-year PhD candidate at Caltech studying Computing and Mathematical Sciences. I was previously supported by the Gupta Fellowship. 
 
 Previously at Duke, studying Mathematics, Computer Science and Statistics. 
 
