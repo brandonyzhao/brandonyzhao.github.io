@@ -38,6 +38,20 @@ author_profile: true
   <a href="#" onclick="hideBlock('allnews'); showBlock('news'); return false;" class="btn btn--inverse">Less</a>
 </div>
 
+<h2>Talks</h2>
+<div id="talks">
+  {% for item in site.data.talks.main %}
+  <p><strong><font class="new">{{ item.date | markdownify | remove: '<p>' | remove: '</p>'}} </font></strong>{{ item.info | markdownify | remove: '<p>' | remove: '</p>'}}</p>
+  {% endfor %}
+  <a href="#" onclick="hideBlock('talks'); showBlock('alltalks'); return false;" class="btn btn--inverse">More</a>
+</div>
+<div id="alltalks" style="display: none;">
+  {% for item in site.data.talks.all %}
+  <p><strong><font class="new">{{ item.date | markdownify | remove: '<p>' | remove: '</p>'}} </font></strong>{{ item.info | markdownify | remove: '<p>' | remove: '</p>'}}</p>
+  {% endfor %}
+  <a href="#" onclick="hideBlock('alltalks'); showBlock('talks'); return false;" class="btn btn--inverse">Less</a>
+</div>
+
 <h2 style="clear: both;" id="publications">Publications</h2>
 {% for publication in site.data.publications.all %}
   {% include publication-single.html %}
