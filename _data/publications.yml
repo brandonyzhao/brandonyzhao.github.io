@@ -1,4 +1,10 @@
 all: 
+  - title: "Revealing the 3D Cosmic Web through Gravitationally Constrained Neural Fields"
+    authors: "**Brandon Zhao**, Aviad Levis, Liam Connor, Pratul P. Srinivasan, Katherine L. Bouman"
+    venue: "*ICLR* 2025"
+    teaser: dm_iclr_teaser.gif
+    links:
+     - "[Webpage](http://imaging.cms.caltech.edu/cwnf/){: .btn .btn--inverse}"
   - title: "Single View Refractive Index Tomography with Neural Fields"
     authors: "**Brandon Zhao**, Aviad Levis, Liam Connor, Pratul P. Srinivasan, Katherine L. Bouman"
     venue: "*CVPR* 2024"
