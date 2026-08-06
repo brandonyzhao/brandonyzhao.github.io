@@ -7,13 +7,16 @@
 <div style="clear: both;">
   <article class="publication__item" itemscope itemtype="http://schema.org/CreativeWork">
     <div class="publication__item-teaser" style="margin-top: 1em;">
-      <img itemprop="image" src=
-        {% if teaser contains "://" %}
-          "{{ teaser }}"
-        {% else %}
-          "{{ teaser | prepend: "/images/" | prepend: base_path }}"
-        {% endif %}
-        alt="">
+      {% if teaser contains "://" %}
+        {% capture teaser_url %}{{ teaser }}{% endcapture %}
+      {% else %}
+        {% capture teaser_url %}{{ teaser | prepend: "/images/" | prepend: base_path }}{% endcapture %}
+      {% endif %}
+      {% if teaser contains ".mp4" %}
+        <video src="{{ teaser_url }}" autoplay loop muted playsinline></video>
+      {% else %}
+        <img itemprop="image" src="{{ teaser_url }}" alt="">
+      {% endif %}
     </div>
     <div class="publication__item-text">
       <h2 class="publication__item-title" itemprop="headline">

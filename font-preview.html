@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Font preview — delete this file when done</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&family=Manrope:wght@400;500;600&family=DM+Sans:wght@400;500;600&family=Public+Sans:wght@400;500;600&family=Figtree:wght@400;500;600&family=Geist:wght@400;500;600&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  body { margin: 0; padding: 2em 1em 6em; background: #fafafa; color: #494e52; }
+  .note { max-width: 62em; margin: 0 auto 2em; font: 15px/1.6 -apple-system, sans-serif; }
+  .note code { background: #eee; padding: 1px 5px; border-radius: 3px; }
+  .sample { max-width: 62em; margin: 0 auto 1.5em; background: #fff; border: 1px solid #e6e6e6;
+            border-radius: 4px; padding: 1.75em 2em; }
+  .label { font: 600 12px/1 -apple-system, sans-serif; letter-spacing: .08em; text-transform: uppercase;
+           color: #9aa0a6; margin-bottom: .4em; }
+  .blurb { font: 13px/1.5 -apple-system, sans-serif; color: #9aa0a6; margin-bottom: 1.6em; }
+  .cols { display: flex; gap: 2.5em; align-items: flex-start; }
+  .side { width: 200px; flex: 0 0 200px; }
+  .side img { width: 100%; display: block; border: 1px solid #f2f3f3; padding: 5px; box-sizing: border-box; }
+  .name { font-size: 1.953em; margin: 10px 0 25px; font-weight: 500; }
+  .links { list-style: none; margin: 0; padding: 0; font-size: 1em; }
+  .links li { white-space: nowrap; margin-bottom: 5px; padding: 2px 0; }
+  .links i { color: #9aa0a6; font-style: normal; display: inline-block; width: 1.3em; }
+  .body h2 { font-size: 1.563em; margin: 0 0 .6em; font-weight: 600; }
+  .body p { line-height: 1.65; margin: 0 0 1em; }
+  .pub { border-top: 1px solid #f0f0f0; padding-top: 1em; }
+  .pub .t { font-size: 1.25em; font-weight: 600; margin-bottom: .25em; }
+  .pub .a { margin: 0 0 .15em; }
+  .pub .v { margin: 0; font-style: italic; }
+  .baseline { border-color: #cfd8dc; background: #f6f8f9; }
+</style>
+</head>
+<body>
+
+<div class="note">
+  <p><strong>Inter and its neighbours.</strong> All are modern screen sans-serifs in the same family as Inter —
+  the differences are in letter width, roundness, and how much personality shows up in a few specific
+  letters (<em>a g y R</em>). Compare the name at large size and the body text at small size; they
+  separate differently at each. Delete <code>font-preview.html</code> when done.</p>
+</div>
+
+<script>
+const FONTS = [
+  ['Inter', 'Inter', 'Your favourite — the reference. Tall x-height, near-neutral, very even colour. The safe modern default.'],
+  ['Geist', 'Geist', 'Vercel’s take on Inter: slightly narrower and tighter, a touch more mechanical. Very close cousin.'],
+  ['Public Sans', 'Public Sans', 'US design-system sans. Marginally wider and squarer than Inter, a bit more sober. The most conservative option here.'],
+  ['IBM Plex Sans', 'IBM Plex Sans', 'Noticeably more character — flared stems, a distinctive lowercase a and g. Reads technical/scientific rather than corporate.'],
+  ['Work Sans', 'Work Sans', 'Slightly quirky grotesque with looser spacing. Warmer than Inter without going geometric.'],
+  ['DM Sans', 'DM Sans', 'Geometric and low-contrast, rounder bowls. Friendlier and softer; shines at large sizes like your name.'],
+  ['Manrope', 'Manrope', 'Semi-geometric with subtly squared curves. Modern and a little distinctive, still calm in paragraphs.'],
+  ['Figtree', 'Figtree', 'Rounded geometric, open apertures. The friendliest of the set — approachable, less formal.'],
+];
+
+const CONTENT = (cls, label, blurb, stack, baseline) => `
+<div class="sample ${cls} ${baseline ? 'baseline' : ''}">
+  <div class="label">${label}</div>
+  <div class="blurb">${blurb}</div>
+  <div class="cols">
+    <div class="side">
+      <img src="/images/profilepic.jpg" alt="">
+      <div class="name">Brandon Zhao</div>
+      <ul class="links">
+        <li><i>&#9993;</i> Email</li>
+        <li><i>in</i> LinkedIn</li>
+        <li><i>&#9679;</i> Github</li>
+        <li><i>&#9654;</i> YouTube</li>
+        <li><i>&#127891;</i> Google Scholar</li>
+      </ul>
+    </div>
+    <div class="body">
+      <h2>About</h2>
+      <p>I am a fifth-year PhD candidate at Caltech studying Computing and Mathematical Sciences. I mainly work on computational imaging, with a focus on astrophysical applications. More broadly, I am interested in generative modeling and problems at the intersection of machine learning and physics.</p>
+      <div class="pub">
+        <div class="t">Generative Diffusion Priors for 3D Mapping of the Dark Universe</div>
+        <p class="a"><strong>Brandon Zhao</strong>, Diana Scognamiglio, Olivier Dor&eacute;, Katherine L. Bouman</p>
+        <p class="v">CVPR 2026 &nbsp;&middot;&nbsp; Highlight</p>
+      </div>
+    </div>
+  </div>
+</div>`;
+
+// Build the font-family rules as real CSS so quoted family names survive.
+let css = `.f-current { font-family: -apple-system, ".SFNSText-Regular", "San Francisco", Roboto, "Segoe UI", "Helvetica Neue", Arial, sans-serif; }\n`;
+FONTS.forEach((f, i) => {
+  css += `.f${i} { font-family: "${f[1]}", sans-serif; }\n`;
+});
+const styleEl = document.createElement('style');
+styleEl.textContent = css;
+document.head.appendChild(styleEl);
+
+let html = CONTENT('f-current', '0 — Current (system UI font)',
+  'What the site uses today, for reference.', null, true);
+
+FONTS.forEach((f, i) => {
+  html += CONTENT('f' + i, (i + 1) + ' — ' + f[0], f[2], null, false);
+});
+
+document.body.insertAdjacentHTML('beforeend', html);
+</script>
+
+</body>
+</html>

@@ -57,7 +57,8 @@
     width: 30%; 
     float: left;
     height: auto;
-    img {
+    img, video {
       width: 100%;
+      display: block;
     }
   }

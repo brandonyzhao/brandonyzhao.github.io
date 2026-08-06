@@ -6,13 +6,20 @@ author_profile: true
 {% include base_path %}
 
 <h2 id="about">About</h2>
-<div><p>
-    Fourth-year PhD candidate at Caltech studying Computing and Mathematical Sciences, advised by Katie Bouman in the <a href="https://computationalcameras.org/">Computational Cameras Group</a>, supported by the Gupta Fellowship. Previously at Duke, studying Mathematics, Computer Science and Statistics. 
-    My research interests include computational imaging and computer vision. Currently I'm working on using computational imaging techniques for astrophysical applications. 
-</p></div>
+<div>
+<p>
+    I am a fifth-year PhD candidate at Caltech studying Computing and Mathematical Sciences. I mainly work on computational imaging, with a focus on astrophysical applications. More broadly, I am interested in generative modeling and problems at the intersection of machine learning and physics.
+</p>
+<p>
+    I am advised by Katie Bouman in the <a href="https://computationalcameras.org/">Computational Cameras Group</a>, supported by the Gupta Fellowship and a NASA PDRDF grant. I was also a student researcher at Google Deepmind, hosted by <a href="https://pratulsrinivasan.github.io/">Pratul Srinivasan</a>.
+</p>
+<p>
+    I am a member of the <a href="https://eventhorizontelescope.org/">Event Horizon Telescope</a> collaboration, and am currently in collaboration with the <a href="https://science.nasa.gov/mission/webb/">James Webb Space Telescope</a> working on dark matter imaging.
+</p>
+</div>
 
 
-<h2>News</h2>
+<!-- <h2>News</h2> -->
 <!-- <div id="news">
   {% for item in site.data.news.main %}
   <p>{{ item | markdownify | remove: '<p>' | remove: '</p>'}}</p>
@@ -25,7 +32,7 @@ author_profile: true
   {% endfor %}
   <a href="#" onclick="hideBlock('allnews'); showBlock('news'); return false;" class="btn btn--inverse">Less</a>
 </div> -->
-<div id="news">
+<!-- <div id="news">
   {% for item in site.data.news.main %}
   <p><strong><font class="new">{{ item.date | markdownify | remove: '<p>' | remove: '</p>'}} </font></strong>{{ item.info | markdownify | remove: '<p>' | remove: '</p>'}}</p>
   {% endfor %}
@@ -50,7 +57,7 @@ author_profile: true
   <p><strong><font class="new">{{ item.date | markdownify | remove: '<p>' | remove: '</p>'}} </font></strong>{{ item.info | markdownify | remove: '<p>' | remove: '</p>'}}</p>
   {% endfor %}
   <a href="#" onclick="hideBlock('alltalks'); showBlock('talks'); return false;" class="btn btn--inverse">Less</a>
-</div>
+</div> -->
 
 <h2 style="clear: both;" id="publications">Publications</h2>
 {% for publication in site.data.publications.all %}

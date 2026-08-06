@@ -1,4 +1,29 @@
-all: 
+all:
+  - title: "Video reconstruction of variable VLBI observations with neural fields"
+    authors: "Marianna Foschi&#42;, **Brandon Zhao&#42;**, Antonio Fuentes&#42;, Katherine L. Bouman, José L. Gómez, Aviad Levis"
+    venue: "*Nature* 2026"
+    teaser: teaser_kine.mp4
+  - title: "Generative Diffusion Priors for 3D Mapping of the Dark Universe"
+    authors: "**Brandon Zhao**, Diana Scognamiglio, Olivier Doré, Katherine L. Bouman"
+    venue: "*CVPR* 2026"
+    notes: "Highlight"
+    teaser: darkuniverse_teaser.mp4
+    links:
+     - "[Webpage](https://imaging.cms.caltech.edu/gdpdm/){: .btn .btn--inverse}"
+     - "[arXiv](https://arxiv.org/abs/2606.00803){: .btn .btn--info}"
+  - title: "Fourier Feature Pyramids for Physics-Informed Neural Networks"
+    authors: "**Brandon Zhao**, Yixuan Wang, Jonathan T. Barron, Katherine L. Bouman, Dor Verbin, Pratul P. Srinivasan"
+    venue: "*arXiv preprint*"
+    teaser: beignet.mp4
+    links:
+     - "[arXiv](https://arxiv.org/abs/2605.24278){: .btn .btn--info}"
+  - title: "Mapping Dark-Matter Clusters via Physics-Guided Diffusion Models"
+    authors: "Diego Royo, **Brandon Zhao**, Adolfo Muñoz, Diego Gutierrez, Katherine L. Bouman"
+    venue: "*ECCV* 2026"
+    teaser: darkclusters_teaser.mp4
+    links:
+     - "[Webpage](https://graphics.unizar.es/projects/DarkMatterMapping){: .btn .btn--inverse}"
+     - "[arXiv](https://arxiv.org/abs/2603.14503){: .btn .btn--info}"
   - title: "Revealing the 3D Cosmic Web through Gravitationally Constrained Neural Fields"
     authors: "**Brandon Zhao**, Aviad Levis, Liam Connor, Pratul P. Srinivasan, Katherine L. Bouman"
     venue: "*ICLR* 2025"

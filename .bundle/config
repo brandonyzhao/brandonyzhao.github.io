@@ -1,0 +1,3 @@
+---
+BUNDLE_BUILD__UNF_EXT: "--with-cxxflags=-isysroot/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk"
+BUNDLE_BUILD__EVENTMACHINE: "--with-cflags=-isysroot/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk"
