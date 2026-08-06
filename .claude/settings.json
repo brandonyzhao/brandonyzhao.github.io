@@ -61,7 +61,14 @@
       "Bash(cd /Users/brandonzhao/Documents/brandonyzhao.github.io; grep -n -A5 \"^.sidebar p,\" /tmp/m7.css)",
       "Bash(curl -s http://127.0.0.1:4000/assets/css/main.css -o /tmp/m8.css)",
       "Bash(curl -s http://127.0.0.1:4000/assets/css/main.css -o /tmp/m9.css)",
-      "Bash(cd /Users/brandonzhao/Documents/brandonyzhao.github.io *)"
+      "Bash(cd /Users/brandonzhao/Documents/brandonyzhao.github.io *)",
+      "Bash(ffprobe -v error -count_frames -select_streams v:0 -show_entries stream=width,height,nb_read_frames,avg_frame_rate -of default=nw=1 images/banana.gif)",
+      "Bash(ffmpeg -y -v error -i banana.gif -filter_complex '[0:v]crop=270:270:105:0,split[a][b];[a]palettegen=stats_mode=diff[p];[b][p]paletteuse=dither=bayer' banana_square.gif)",
+      "Bash(ffprobe -v error -count_frames -select_streams v:0 -show_entries stream=width,height,nb_read_frames -of default=nw=1 banana_square.gif)",
+      "Bash(python3 -)",
+      "Bash(ffprobe -v error -count_frames -select_streams v:0 -show_entries stream=width,height,nb_read_frames -of default=nw=1 images/cabbage.webp)",
+      "Bash(echo \"exit: $?\")",
+      "Bash(ffprobe -v error -select_streams v:0 -show_entries stream=width,height -of default=nw=1 images/bluewizzy.webp)"
     ]
   }
 }
