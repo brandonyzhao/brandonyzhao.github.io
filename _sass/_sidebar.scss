@@ -15,6 +15,9 @@
 
   @include breakpoint($large) {
     @include span(3 of 12);
+    // line the photo up with the top of the first <h2> in the content
+    // column, which carries `margin: 2em 0 0.5em` at font-size 1.25em
+    margin-top: 40px;
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
             transition: opacity 0.2s ease-in-out;

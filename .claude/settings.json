@@ -60,7 +60,8 @@
       "Bash(curl -s http://127.0.0.1:4000/assets/css/main.css -o /tmp/m7.css -w \"css HTTP %{http_code}\\\\n\")",
       "Bash(cd /Users/brandonzhao/Documents/brandonyzhao.github.io; grep -n -A5 \"^.sidebar p,\" /tmp/m7.css)",
       "Bash(curl -s http://127.0.0.1:4000/assets/css/main.css -o /tmp/m8.css)",
-      "Bash(curl -s http://127.0.0.1:4000/assets/css/main.css -o /tmp/m9.css)"
+      "Bash(curl -s http://127.0.0.1:4000/assets/css/main.css -o /tmp/m9.css)",
+      "Bash(cd /Users/brandonzhao/Documents/brandonyzhao.github.io *)"
     ]
   }
 }
