@@ -30,6 +30,7 @@ all:
     teaser: dm_iclr_teaser.gif
     links:
      - "[Webpage](http://imaging.cms.caltech.edu/cwnf/){: .btn .btn--inverse}"
+     - "[arXiv](https://arxiv.org/abs/2504.15262){: .btn .btn--info}"
   - title: "Single View Refractive Index Tomography with Neural Fields"
     authors: "**Brandon Zhao**, Aviad Levis, Liam Connor, Pratul P. Srinivasan, Katherine L. Bouman"
     venue: "*CVPR* 2024"
